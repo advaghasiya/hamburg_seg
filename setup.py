@@ -25,7 +25,13 @@ if __name__ == '__main__':
         packages=find_packages(exclude=('configs', 'tools', 'demo')),
         include_package_data=True,
         install_requires=[
-        'yapf==0.40.1'
+            'yapf==0.40.1',
+            'shapely',
+            'joblib',
+            'geopandas',
+            'rasterio',
+            'Pillow',  # for PIL
+            'time'  # time is a standard library, no need to install
         ],
         ext_modules=[],
         zip_safe=False)
