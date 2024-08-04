@@ -83,25 +83,6 @@ celerybeat-schedule
 # Environments
 .env
 .venv
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
-.DS_Store
-
-# Spyder project settings
-.spyderproject
-.spyproject
-
-# Rope project settings
-.ropeproject
-
-# mkdocs documentation
-/site
-
-# mypy
-.mypy_cache/
 
 data
 .vscode
@@ -120,7 +101,6 @@ mmseg/.mim
 *.pt
 
 miniconda3
-assets
 hamburg_result
 ham_seg.sif
 ham_seg_image.tar
