@@ -1,0 +1,18 @@
+{
+    "config": "work_dirs/ham_seg_base_512x512_6_hamburg/2024_0709_1802/ham_seg_base_512x512_6_hamburg.py",
+    "metric": {
+        "aAcc": 0.9323999999999999,
+        "mIoU": 0.8665,
+        "mAcc": 0.9339,
+        "IoU.impervious_surface": 0.8794999694824219,
+        "IoU.building": 0.9454000091552734,
+        "IoU.low_vegetation": 0.7788999938964843,
+        "IoU.tree": 0.8016000366210938,
+        "IoU.car": 0.9269999694824219,
+        "Acc.impervious_surface": 0.9444000244140625,
+        "Acc.building": 0.9769000244140625,
+        "Acc.low_vegetation": 0.9081999969482422,
+        "Acc.tree": 0.8716000366210938,
+        "Acc.car": 0.9686000061035156
+    }
+}
